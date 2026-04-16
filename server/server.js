@@ -43,6 +43,6 @@ app.get('/health', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor API corriendo en http://localhost:${PORT}`);
-  console.log(`📡 Endpoint: GET http://localhost:${PORT}/api/sensor`);
+  console.log(` Servidor API corriendo en http://localhost:${PORT}`);
+  console.log(` Endpoint: GET http://localhost:${PORT}/api/sensor`);
 });
